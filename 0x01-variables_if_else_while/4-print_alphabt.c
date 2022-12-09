@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print all the alphabets in lowercase except q and e
+ * main - Print all alphabets in lowercase except q and e
  *
- *  Return: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
