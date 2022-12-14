@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - prints 1st 98 fibonacci numbers starting with 1 and 2
  *
  * Return: Always 0
  */
@@ -34,5 +34,6 @@ int main(void)
 	}
 
 	printf("\n");
+
 	return (0);
 }
