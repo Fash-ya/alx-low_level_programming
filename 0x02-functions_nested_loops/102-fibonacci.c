@@ -6,24 +6,21 @@
  */
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2;
+	int i;
 
-	while (i < 50)
+	long int a = 0, b = 1, c;
+
+	for (i = 1; i <= 50; i++)
 	{
-		if  (i == 0)
-			printf("%1d", j);
-		else if (i == 1)
-			printf(", %1d", k);
-		else
-		{
-			k += j;
-			j = k - j;
-			printf(", %1d", k);
-		}
+		c = a + b;
+		a = b;
+		b = c;
+		printf("%lu", c);
 
-		i++;
+		if (i <= 49)
+			printf(", ");
 	}
 	printf("\n");
+
 	return (0);
 }
